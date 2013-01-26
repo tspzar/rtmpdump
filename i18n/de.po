@@ -91,7 +91,7 @@ msgstr "--app|-a <App>          Name der Ziel-App auf dem Flash-Server\n"
 msgid ""
 "--auth|-u string        Authentication string to be appended to the connect "
 "string\n"
-msgstr "--auth|-u <Zeichenkette>    Die der connect-Zeichenkette anzufügende Authentifizierungszeichenkette\n"
+msgstr "--auth|-u <Zeichenk.>    Authentifizierungszeichenkette an connect-Zeichenkette anfügen\n"
 
 #: rtmpdump.c:715
 #, c-format
@@ -111,13 +111,13 @@ msgstr "--debug|-z              Debuginformationen ausgeben\n"
 #: rtmpdump.c:689
 #, c-format
 msgid "--flashVer|-f string    Flash version string (default: \"%s\")\n"
-msgstr "--flashVer|-f <Zeichenk.>   Flash-Player-Version (Standard: \"%s\")\n"
+msgstr "--flashVer|-f <Zeic.>   Flash-Player-Version (Standard: \"%s\")\n"
 
 #: rtmpdump.c:698
 msgid ""
 "--flv|-o string         FLV output file name, if the file name is - print "
 "stream to stdout\n"
-msgstr "--flv|-o <Zeichenkette>   Name der FLV-Ausgabedatei (Standardausgabe, wenn - angegeben wird)\n"
+msgstr "--flv|-o <Zeichenk.>    Name der FLV-Ausgabedatei (Standardausgabe, wenn - angegeben wird)\n"
 
 #: rtmpdump.c:713
 msgid ""
@@ -155,17 +155,17 @@ msgstr "--playlist|-Y           Playlist vor Spielen setzen\n"
 
 #: rtmpdump.c:662
 msgid "--playpath|-y path      Overrides the playpath parsed from rtmp url\n"
-msgstr "--playpath|-y <Pfad>    Überschreibt den aus der RTMP-URL ausgelesenen Playpath\n"
+msgstr "--playpath|-y <Pfad>    Überschreibt den Playpath in der RTMP-URL\n"
 
 #: rtmpdump.c:656
 msgid "--port|-c port          Overrides the port in the rtmp url\n"
-msgstr "--port|-c <Port>        Überschreibt den aus der RTMP-URL ausgelesenen Port \n"
+msgstr "--port|-c <Port>        Überschreibt den Port in der RTMP-URL\n"
 
 #: rtmpdump.c:660
 msgid ""
 "--protocol|-l num       Overrides the protocol in the rtmp url (0 - RTMP, 2 "
 "- RTMPE)\n"
-msgstr "--protocol|-l <Zahl>    Überschreibt das aus der RTMP-URL ausgelesene Protokoll (0 - RTMP, 2 "
+msgstr "--protocol|-l <Zahl>    Überschreibt das Protokoll in der RTMP-URL (0 - RTMP, 2 "
 "- RTMPE)\n"
 
 #: rtmpdump.c:721
@@ -180,7 +180,7 @@ msgstr "--realtime|-R           Downloadbeschleunigung via Pause/Unpause-BUFX-Ha
 
 #: rtmpdump.c:700
 msgid "--resume|-e             Resume a partial RTMP download\n"
-msgstr "--resume|-e             Unvollständigen RTMP-Download fortsetzen\n"
+msgstr "--resume|-e             Unvollständigen Download fortsetzen\n"
 
 #: rtmpdump.c:652
 msgid "--rtmp|-r url           URL (e.g. rtmp://host[:port]/path)\n"
@@ -192,7 +192,7 @@ msgid ""
 "--skip|-k num           Skip num keyframes when looking for last keyframe to "
 "resume from. Useful if resume fails (default: %d)\n"
 "\n"
-msgstr "--skip|-k Zahl          <Zahl> Schlüsselbilder bei der Suche nach dem letzten Schlüsselbild, von dem fortgesetzt werden kann, überspringen. Nützlich wenn das normale Fortsetzen fehlschlägt (Standard: %d)\n"
+msgstr "--skip|-k <Zahl>        Anzahl der zu überspringenden Schlüsselbilder bei der Suche nach dem letzten Schlüsselbild, von dem fortgesetzt werden kann. Nützlich wenn das normale Fortsetzen fehlschlägt (Standard: %d)\n"
 
 #: rtmpdump.c:658
 msgid "--socks|-S host:port    Use the specified SOCKS proxy\n"
@@ -202,7 +202,7 @@ msgstr "--socks|-S Host:Port    SOCKS-Proxy benutzen\n"
 msgid ""
 "--start|-A num          Start at num seconds into stream (not valid when "
 "using --live)\n"
-msgstr "--start|-A <Zahl>        Bei <Zahl> Sekunden im Stream starten (funktioniert nicht mit --live)\n"
+msgstr "--start|-A <Zahl>       Bei <Zahl> Sekunden im Stream starten (funktioniert nicht mit --live)\n"
 
 #: rtmpdump.c:707
 msgid "--stop|-B num           Stop at num seconds into stream\n"
@@ -239,13 +239,13 @@ msgstr "--swfhash|-w hexstring  SHA256-Prüfsumme der dekomprimierten SWF-Datei 
 msgid ""
 "--swfsize|-x num        Size of the decompressed SWF file, required for "
 "SWFVerification\n"
-msgstr "--swfsize|-x <ZAHL>      Größe der dekomprimierten SWF-Datei. Für SWF-Verifizierung benötigt.\n"
+msgstr "--swfsize|-x <Zahl>     Größe der dekomprimierten SWF-Datei. Für SWF-Verifizierung benötigt.\n"
 
 #: rtmpdump.c:667
 msgid ""
 "--tcUrl|-t url          URL to played stream (default: \"rtmp://host[:port]/"
 "app\")\n"
-msgstr "--tcUrl|-t <URL>        URL des zu spielenden Streams (Standard: \"rtmp://Host[:Port]/App\")\n"
+msgstr "--tcUrl|-t <URL>        URL des abzuspielenden Streams (Standard: \"rtmp://Host[:Port]/App\")\n"
 
 #: rtmpdump.c:702
 #, c-format
@@ -419,7 +419,7 @@ msgstr "Für die Dauer: %.3f Sek.\n"
 msgid ""
 "If you don't pass parameters for swfUrl, pageUrl, or auth these properties "
 "will not be included in the connect "
-msgstr ""
+msgstr "Wenn Sie keine Parameter für swfUrl, pageUrl oder auth angeben, werden sie auch nicht verwendet (im Verbindungs-"
 
 #: rtmpdump.c:1174
 msgid "Ignoring SWF hash, supply also the swf size  with --swfsize"
@@ -555,7 +555,7 @@ msgstr "bAudioOnly: %d, Größe: %llu"
 msgid ""
 "packet.\n"
 "\n"
-msgstr "Paket.\n\n"
+msgstr "Paket).\n\n"
 
 #: rtmpdump.c:1092
 #, c-format
