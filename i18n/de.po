@@ -80,17 +80,17 @@ msgstr "%s: Schreibvorgang fehlgeschlagen! Programm wird beendet..."
 #: rtmpdump.c:817
 msgid ""
 "(c) 2010 Andrej Stepanchuk, Howard Chu, The Flvstreamer Team; license: GPL\n"
-msgstr "(c) 2010 Andrej Stepanchuk, Howard Chu, Das Flvstreamer-Team; Lizenz: GPL\n"
+msgstr "(c) 2010 Andrej Stepanchuk, Howard Chu, das Flvstreamer-Team; Lizenz: GPL\n"
 
 #: rtmpdump.c:669
 msgid "--app|-a app            Name of target app on server\n"
-msgstr "--app|-a app            Name der Ziel-App auf dem Flash-Server"
+msgstr "--app|-a <App>          Name der Ziel-App auf dem Flash-Server"
 
 #: rtmpdump.c:681
 msgid ""
 "--auth|-u string        Authentication string to be appended to the connect "
 "string\n"
-msgstr "--auth|-u string        Die der connect-Zeichenkette anzufügende Authentifizierungszeichenkette"
+msgstr "--auth|-u <Zeichenkette>    Die der connect-Zeichenkette anzufügende Authentifizierungszeichenkette"
 
 #: rtmpdump.c:715
 #, c-format
@@ -99,9 +99,9 @@ msgstr "--buffer|-b             Bufferzeit in Millisekunden (Standard: %u)\n"
 
 #: rtmpdump.c:683
 msgid ""
-"--conn|-C type:data     Arbitrary AMF data to be appended to the connect "
+"--conn|-C type:data  Arbitrary AMF data to be appended to the connect "
 "string\n"
-msgstr ""
+msgstr "--conn|-C <Typ>:<Daten>  Die der connect-Zeichenkette anzufügenden AMF-Daten\n"
 
 #: rtmpdump.c:723
 msgid "--debug|-z              Debug level command output.\n"
@@ -110,13 +110,13 @@ msgstr "--debug|-z              Debuginformationen ausgeben"
 #: rtmpdump.c:689
 #, c-format
 msgid "--flashVer|-f string    Flash version string (default: \"%s\")\n"
-msgstr "--flashVer|-f string    Flash-Player-Version (Standard: \"%s\")\n"
+msgstr "--flashVer|-f <Zeichenk.>   Flash-Player-Version (Standard: \"%s\")\n"
 
 #: rtmpdump.c:698
 msgid ""
 "--flv|-o string         FLV output file name, if the file name is - print "
 "stream to stdout\n"
-msgstr "--flv|-o string         Name der FLV-Ausgabedatei (Standardausgabe, wenn - angegeben wird)\n""
+msgstr "--flv|-o <Zeichenkette>   Name der FLV-Ausgabedatei (Standardausgabe, wenn - angegeben wird)\n""
 
 #: rtmpdump.c:713
 msgid ""
@@ -130,12 +130,12 @@ msgstr "--help|-h               Diese Hilfeseite ausgeben.\n"
 
 #: rtmpdump.c:654
 msgid "--host|-n hostname      Overrides the hostname in the rtmp url\n"
-msgstr "--host|-n Hostnamen     Überschreibt den Hostnamen in der RTMP-URL"
+msgstr "--host|-n <Hostnamen>   Überschreibt den Hostnamen in der RTMP-URL"
 
 #: rtmpdump.c:711
 msgid ""
 "--jtv|-j JSON           Authentication token for Justin.tv legacy servers\n"
-msgstr "--jtv|-j JSON           Authentifizierungstoken für Justin.tv-Servers"
+msgstr "--jtv|-j <JSON>         Authentifizierungstoken für Justin.tv-Servers"
 
 #: rtmpdump.c:692
 msgid ""
@@ -145,7 +145,7 @@ msgstr "--live|-v               Livestream speichern (Springen/Fortsetzen nicht 
 
 #: rtmpdump.c:668
 msgid "--pageUrl|-p url        Web URL of played programme\n"
-msgstr "--pageUrl|-p url        Web-URL des abzuspielenden Streams\n"
+msgstr "--pageUrl|-p <URL>      Web-URL des abzuspielenden Streams\n"
 
 #: rtmpdump.c:664
 msgid "--playlist|-Y           Set playlist before playing\n"
@@ -153,17 +153,17 @@ msgstr "--playlist|-Y           Playlist vor Spielen setzen\n"
 
 #: rtmpdump.c:662
 msgid "--playpath|-y path      Overrides the playpath parsed from rtmp url\n"
-msgstr "--playpath|-y path      Überschreibt den aus der RTMP-URL ausgelesenen Playpath"
+msgstr "--playpath|-y <Pfad>    Überschreibt den aus der RTMP-URL ausgelesenen Playpath\n"
 
 #: rtmpdump.c:656
 msgid "--port|-c port          Overrides the port in the rtmp url\n"
-msgstr "--port|-c port          Überschreibt den aus der RTMP-URL ausgelesenen Port"
+msgstr "--port|-c <Port>        Überschreibt den aus der RTMP-URL ausgelesenen Port \n"
 
 #: rtmpdump.c:660
 msgid ""
 "--protocol|-l num       Overrides the protocol in the rtmp url (0 - RTMP, 2 "
 "- RTMPE)\n"
-msgstr "--protocol|-l num       Überschreibt das aus der RTMP-URL ausgelesene Protokoll (0 - RTMP, 2 "
+msgstr "--protocol|-l <Zahl>    Überschreibt das aus der RTMP-URL ausgelesene Protokoll (0 - RTMP, 2 "
 "- RTMPE)\n"
 
 #: rtmpdump.c:721
@@ -182,7 +182,7 @@ msgstr "--resume|-e             Unvollständigen RTMP-Download fortsetzen\n"
 
 #: rtmpdump.c:652
 msgid "--rtmp|-r url           URL (e.g. rtmp://host[:port]/path)\n"
-msgstr "--rtmp|-r url           URL (z.B. rtmp://Host[:Port]/Path)\n"
+msgstr "--rtmp|-r <URL>         URL (z.B. rtmp://Host[:Port]/Path)\n"
 
 #: rtmpdump.c:718
 #, c-format
@@ -190,7 +190,7 @@ msgid ""
 "--skip|-k num           Skip num keyframes when looking for last keyframe to "
 "resume from. Useful if resume fails (default: %d)\n"
 "\n"
-msgstr ""
+msgstr "--skip|-k Zahl          <Zahl> Schlüsselbilder bei der Suche nach dem letzten Schlüsselbild, von dem fortgesetzt werden kann, überspringen. Nützlich wenn das normale Fortsetzen fehlschlägt (Standard: %d)\n"
 
 #: rtmpdump.c:658
 msgid "--socks|-S host:port    Use the specified SOCKS proxy\n"
@@ -200,65 +200,66 @@ msgstr "--socks|-S Host:Port    SOCKS-Proxy benutzen\n"
 msgid ""
 "--start|-A num          Start at num seconds into stream (not valid when "
 "using --live)\n"
-msgstr ""
+msgstr "--start|-A <Zahl>        Bei <Zahl> Sekunden im Stream starten (funktioniert nicht mit --live)\n"
 
 #: rtmpdump.c:707
 msgid "--stop|-B num           Stop at num seconds into stream\n"
-msgstr ""
+msgstr "--stop|-B <Zahl>        Bei <Zahl> Sekunden im Stream anhalten\n"
 
 #: rtmpdump.c:694
 msgid ""
 "--subscribe|-d string   Stream name to subscribe to (otherwise defaults to "
 "playpath if live is specifed)\n"
-msgstr ""
+msgstr "--subscribe|-d <Zeichenk.> Name des einzuschreibenden Stream (ansonsten wird bei Livestreams der Playpath verwendet)\n"
 
 #: rtmpdump.c:678
 msgid ""
 "--swfAge|-X days        Number of days to use cached SWF hash before "
 "refreshing\n"
-msgstr ""
+msgstr "--swfAge|-X <Tage>      Nach <Tagen> den zwischengespeicherten SWF-Hash aktualisieren\n"
 
 #: rtmpdump.c:665
 msgid "--swfUrl|-s url         URL to player swf file\n"
-msgstr ""
+msgstr "--swfUrl|-s <URL>       URL der SWF-Datei\n"
 
 #: rtmpdump.c:676
 msgid ""
 "--swfVfy|-W url         URL to player swf file, compute hash/size "
 "automatically\n"
-msgstr ""
+msgstr "--swfVfy|-W <URL>       URL der SWF-Datei, von dieser automatisch Größe und Prüfsumme errechnen\n"
 
 #: rtmpdump.c:672
 msgid ""
 "--swfhash|-w hexstring  SHA256 hash of the decompressed SWF file (32 bytes)\n"
-msgstr ""
+msgstr "--swfhash|-w hexstring  SHA256-Prüfsumme der dekomprimierten SWF-Datei (32 Bytes). Für SWF-Verifzierung benötigt.\n"
 
 #: rtmpdump.c:674
 msgid ""
 "--swfsize|-x num        Size of the decompressed SWF file, required for "
 "SWFVerification\n"
-msgstr ""
+msgstr "--swfsize|-x <ZAHL>      Größe der dekomprimierten SWF-Datei. Für SWF-Verifizierung benötigt.\n"
 
 #: rtmpdump.c:667
 msgid ""
 "--tcUrl|-t url          URL to played stream (default: \"rtmp://host[:port]/"
 "app\")\n"
-msgstr ""
+msgstr "--tcUrl|-t <URL>        URL des zu spielenden Streams (Standard: \"rtmp://Host[:Port]/App\")\n"
 
 #: rtmpdump.c:702
 #, c-format
 msgid "--timeout|-m num        Timeout connection num seconds (default: %u)\n"
-msgstr ""
+msgstr "--timeout|-m <Zahl>     Zeitüberschreitung nach <Zahl> Sekunden (Standard: %u)\n"
 
 #: rtmpdump.c:709
 msgid "--token|-T key          Key for SecureToken response\n"
-msgstr "--token|-T key          Schlüssel für SecureToken-Antwort"
+msgstr "--token|-T <Schlüssel>  Schlüssel für SecureToken-Antwort"
 
 #: rtmpdump.c:650
 msgid ""
 "--url|-i url            URL with options included (e.g. rtmp://host[:port]/"
 "path swfUrl=url tcUrl=url)\n"
-msgstr ""
+msgstr "--url|-i url            URL inklusive Optionen (z.B. rtmp://Host[:Port]/"
+"Pfad swfUrl=<URL> tcUrl=<URL>\n"
 
 #: rtmpdump.c:722
 msgid "--verbose|-V            Verbose command output.\n"
@@ -266,7 +267,7 @@ msgstr "--verbose|-V            Ausführliche Informationen ausgeben\n"
 
 #: rtmpdump.c:1324 rtmpdump.c:1360
 msgid "Already Completed\n"
-msgstr ""
+msgstr "Bereits vollständig\n"
 
 #: rtmpdump.c:479
 #, c-format
@@ -276,7 +277,7 @@ msgstr "Bereits heruntergeladen bis: %.3f Sek. Dauer=%.3f Sek.\n"
 #: rtmpdump.c:947
 #, c-format
 msgid "Buffer time must be greater than zero, ignoring the specified value %d!"
-msgstr ""
+msgstr "Bufferzeit muss größer als null sein. Angegebener Wert %d ignoriert"
 
 #: rtmpdump.c:1144
 msgid "Can't resume in stdout mode, ignoring --resume option"
@@ -315,12 +316,12 @@ msgstr "Verbindung wird aufgebaut ...\n"
 msgid ""
 "Connection timed out, trying to resume.\n"
 "\n"
-msgstr "Zeitüberschreitung beim Verbindungsaufbau. Versuch zur Fortsetzung wird gestartet.\n\n"
+msgstr "Zeitüberschreitung beim Verbindungsaufbau. Versuch zur Fortsetzung wird gestartet...\n\n"
 
 #: rtmpdump.c:464
 #, c-format
 msgid "Continuing at TS: %d ms\n"
-msgstr ""
+msgstr "Fortsetzung bei %d ms\n"
 
 #: rtmpdump.c:336
 msgid "Couldn't find keyframe to resume from!"
@@ -360,7 +361,7 @@ msgstr "Letztes Schlüsselbild konnte nicht gelesen werden. Download wird abgebr
 
 #: rtmpdump.c:327
 msgid "Couldn't read prevTagSize from file!"
-msgstr ""
+msgstr "prevTagSize konnte in der Datei nicht gelesen werden!"
 
 #: rtmpdump.c:625
 #, c-format
@@ -372,7 +373,7 @@ msgstr "FLV-Datei kann nicht fortgesetzt werden. Versuchen Sie es bitte erneut m
 #: rtmpdump.c:547
 #, c-format
 msgid "Detected that buffer time is less than duration, resetting to: %dms"
-msgstr ""
+msgstr "Bufferzeit ist kleiner als Dauer. Zurücksetzung auf %d ms."
 
 #: rtmpdump.c:1403
 msgid "Download complete\n"
@@ -405,7 +406,7 @@ msgstr "Der Stream konnte nicht fortgesetzt werden\n\n"
 #: rtmpdump.c:197
 #, c-format
 msgid "First prevTagSize is not zero: prevTagSize = 0x%08X"
-msgstr ""
+msgstr "Erstes prevTagSize ist nicht null: prevTagSize = 0x%08X"
 
 #: rtmpdump.c:505
 #, c-format
@@ -447,7 +448,7 @@ msgstr "Letztes Schlüsselbild gefunden bei: %d ms, Größe: %d, Typ: %02X"
 #: rtmpdump.c:1255
 msgid ""
 "Last keyframe is first frame in stream, switching from resume to normal mode!"
-msgstr ""
+msgstr "Letztes Schlüsselbild ist erster Frame im Stream. Aus dem Fortsetzungs- in den Normalmodus umschalten..."
 
 #: rtmpdump.c:406
 msgid "Last keyframe timestamp is negative, aborting, your file is corrupt!"
@@ -508,7 +509,7 @@ msgstr "Livestream wird gestartet..."
 msgid ""
 "Unexpected start of file, error in tag sizes, couldn't arrive at "
 "prevTagSize=0"
-msgstr ""
+msgstr "Unerwarteter Dateibeginn, Fehler in den Tag-Größen, prevTagSize=0 konnte nicht erreicht werden"
 
 #: rtmpdump.c:976
 #, c-format
@@ -561,8 +562,8 @@ msgstr "Unbekannte Option: %c\n"
 
 #: rtmpdump.c:375
 msgid "xxxxxxxxxxxxxxxxxxxxxxxx Well, lets go one more back!"
-msgstr ""
+msgstr "xxxxxxxxxxxxxxxxxxxxxxxx Na ja, dann lasst uns eins weiter zurückgehen!"
 
 #: rtmpdump.c:591
 msgid "zero read!"
-msgstr ""
+msgstr "Null gelesen"
