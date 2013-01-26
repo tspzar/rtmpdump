@@ -31,7 +31,7 @@
 #include <getopt.h>
 
 #include <libintl.h>
-#include <locale.h> // Internalization
+#include <locale.h> // for Gettext support (Translation/Internationalization)
 
 #define _(STRING) gettext(STRING)
 
@@ -808,7 +808,7 @@ main(int argc, char **argv)
       index++;
     }
 
-// Internalization
+// Gettext support (Translation/Internationalization)
   setlocale(LC_ALL, "");
   bindtextdomain("rtmpdump", "/usr/share/locale");
   textdomain("rtmpdump"); 
