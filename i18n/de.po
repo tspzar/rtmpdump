@@ -45,17 +45,18 @@ msgstr "\r%.3f kB / %.2f Sek. (%.1f%%)"
 msgid ""
 "                        B:boolean(0|1), S:string, N:number, O:object-flag(0|"
 "1),\n"
-msgstr ""
+msgstr "                        B:Boolean(0|1), S:Zeichenkette, N:Zahl, O:Objekt-Flag(0|1)\n"
 
 #: rtmpdump.c:687
 msgid ""
 "                        Z:(null), NB:name:boolean, NS:name:string, NN:name:"
 "number\n"
-msgstr ""
+msgstr "                        Z:(null), NB:Name:Boolean, NS:Name:Zeichenkette, NN:Name:"
+"Zahl\n"
 
 #: rtmpdump.c:501
 msgid "  in approximately realtime (disabled BUFX speedup hack)\n"
-msgstr ""
+msgstr "  in ungefährer Realzeit (BUFX-Beschleunigungshack deaktiviert)\n"
 
 #: rtmpdump.c:496
 #, c-format
@@ -340,7 +341,7 @@ msgstr "Die URL %s konnte nicht ausgelesen werden"
 #, c-format
 msgid ""
 "Couldn't parse swf hash hex string, not hexstring or not %d bytes, ignoring!"
-msgstr ""
+msgstr "SWF-Hash-Hexadezimalzeichenkette konnte nicht ausgelesen werden (keine %d Bytes). Angegebener SWF-Hash ignoriert"
 
 #: rtmpdump.c:996
 #, c-format
