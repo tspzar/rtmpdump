@@ -85,13 +85,13 @@ msgstr "(c) 2010 Andrej Stepanchuk, Howard Chu, das Flvstreamer-Team; Lizenz: GP
 
 #: rtmpdump.c:669
 msgid "--app|-a app            Name of target app on server\n"
-msgstr "--app|-a <App>          Name der Ziel-App auf dem Flash-Server"
+msgstr "--app|-a <App>          Name der Ziel-App auf dem Flash-Server\n"
 
 #: rtmpdump.c:681
 msgid ""
 "--auth|-u string        Authentication string to be appended to the connect "
 "string\n"
-msgstr "--auth|-u <Zeichenkette>    Die der connect-Zeichenkette anzufügende Authentifizierungszeichenkette"
+msgstr "--auth|-u <Zeichenkette>    Die der connect-Zeichenkette anzufügende Authentifizierungszeichenkette\n"
 
 #: rtmpdump.c:715
 #, c-format
@@ -106,7 +106,7 @@ msgstr "--conn|-C <Typ>:<Daten>  Die der connect-Zeichenkette anzufügenden AMF-
 
 #: rtmpdump.c:723
 msgid "--debug|-z              Debug level command output.\n"
-msgstr "--debug|-z              Debuginformationen ausgeben"
+msgstr "--debug|-z              Debuginformationen ausgeben\n"
 
 #: rtmpdump.c:689
 #, c-format
@@ -117,7 +117,7 @@ msgstr "--flashVer|-f <Zeichenk.>   Flash-Player-Version (Standard: \"%s\")\n"
 msgid ""
 "--flv|-o string         FLV output file name, if the file name is - print "
 "stream to stdout\n"
-msgstr "--flv|-o <Zeichenkette>   Name der FLV-Ausgabedatei (Standardausgabe, wenn - angegeben wird)\n""
+msgstr "--flv|-o <Zeichenkette>   Name der FLV-Ausgabedatei (Standardausgabe, wenn - angegeben wird)\n"
 
 #: rtmpdump.c:713
 msgid ""
@@ -131,18 +131,19 @@ msgstr "--help|-h               Diese Hilfeseite ausgeben.\n"
 
 #: rtmpdump.c:654
 msgid "--host|-n hostname      Overrides the hostname in the rtmp url\n"
-msgstr "--host|-n <Hostnamen>   Überschreibt den Hostnamen in der RTMP-URL"
+msgstr "--host|-n <Hostnamen>   Überschreibt den Hostnamen in der RTMP-URL\n"
 
 #: rtmpdump.c:711
 msgid ""
 "--jtv|-j JSON           Authentication token for Justin.tv legacy servers\n"
-msgstr "--jtv|-j <JSON>         Authentifizierungstoken für Justin.tv-Servers"
+msgstr "--jtv|-j <JSON>         Authentifizierungstoken für Justin.tv-Server\n"
 
 #: rtmpdump.c:692
 msgid ""
 "--live|-v               Save a live stream, no --resume (seeking) of live "
 "streams possible\n"
-msgstr "--live|-v               Livestream speichern (Springen/Fortsetzen nicht möglich)\ņ"
+msgstr "--live|-v               Livestream speichern (Springen"
+" oder Fortsetzen nicht möglich) \n"
 
 #: rtmpdump.c:668
 msgid "--pageUrl|-p url        Web URL of played programme\n"
@@ -169,7 +170,7 @@ msgstr "--protocol|-l <Zahl>    Überschreibt das aus der RTMP-URL ausgelesene P
 
 #: rtmpdump.c:721
 msgid "--quiet|-q              Suppresses all command output.\n"
-msgstr "--quiet|-q              Alle Ausgaben unterdrücken"
+msgstr "--quiet|-q              Alle Ausgaben unterdrücken\n"
 
 #: rtmpdump.c:696
 msgid ""
@@ -253,7 +254,7 @@ msgstr "--timeout|-m <Zahl>     Zeitüberschreitung nach <Zahl> Sekunden (Standa
 
 #: rtmpdump.c:709
 msgid "--token|-T key          Key for SecureToken response\n"
-msgstr "--token|-T <Schlüssel>  Schlüssel für SecureToken-Antwort"
+msgstr "--token|-T <Schlüssel>  Schlüssel für SecureToken-Antwort\n"
 
 #: rtmpdump.c:650
 msgid ""
@@ -303,7 +304,7 @@ msgstr "Empfangenes Signal: %d. Programm wird ordnungsgemäß beendet, bitte war
 
 #: rtmpdump.c:1413
 msgid "Closing connection.\n"
-msgstr "Verbindung wird geschlossen..."
+msgstr "Verbindung wird geschlossen...\n"
 
 #: rtmpdump.c:1300
 msgid "Connected..."
@@ -346,7 +347,7 @@ msgstr "SWF-Hash-Hexadezimalzeichenkette konnte nicht ausgelesen werden (keine %
 #: rtmpdump.c:996
 #, c-format
 msgid "Couldn't parse the specified url (%s)!"
-msgstr "Die angegebene URL (%d) konnte nicht ausgelesen werden!"
+msgstr "Die angegebene URL (%s) konnte nicht ausgelesen werden!"
 
 #: rtmpdump.c:168
 msgid "Couldn't read FLV file header!"
@@ -383,7 +384,7 @@ msgstr "Download erfolgreich abgeschlossen\n"
 #: rtmpdump.c:1408
 #, c-format
 msgid "Download may be incomplete (downloaded about %.2f%%), try resuming\n"
-msgstr "Download dürfte unvollständig sein (heruntergeladen bis %.2f%%). Fortsetzung wird versucht...."
+msgstr "Download dürfte unvollständig sein (heruntergeladen bis %.2f%%). Fortsetzung wird versucht...\n"
 
 #: rtmpdump.c:181
 msgid "FLV file contains neither video nor audio, aborting!"
@@ -487,11 +488,11 @@ msgstr "Stream wird fortgesetzt...."
 
 #: rtmpdump.c:918
 msgid "SWF Age must be non-negative, ignoring\n"
-msgstr "Ihre SWF-Datei scheint aus der Zukunft zu kommen. Ignorieren..."
+msgstr "Ihre SWF-Datei scheint aus der Zukunft zu kommen. Ignorieren...\n"
 
 #: rtmpdump.c:901
 msgid "SWF Size must be at least 1, ignoring\n"
-msgstr "SWF-Größe muss mindestens 1 betragen. Ignorieren..."
+msgstr "SWF-Größe muss mindestens 1 betragen. Ignorieren...\n"
 
 #: rtmpdump.c:1286
 #, c-format
@@ -504,7 +505,7 @@ msgstr "Stream wird gestartet..."
 
 #: rtmpdump.c:469
 msgid "Starting Live Stream\n"
-msgstr "Livestream wird gestartet..."
+msgstr "Livestream wird gestartet...\n"
 
 #: rtmpdump.c:320
 msgid ""
