@@ -222,11 +222,11 @@ Note that only the shortform (single letter) rtmpdump options are supported.
 ---
 Internalization...
 
-1) Extract all translateable strings
-xgettext -d rtmpdump -s -o rtmpdump.po -k_ rtmpdump.c
+1) Create template
+xgettext -d rtmpdump -s -o rtmpdump.pot -k_ rtmpdump.c
 
-2) Use the user's environment for further settings (e.g. German)
-msginit -l de_DE.utf8 -o de.po -i rtmpdump.po
+2) Create PO file for your language
+msginit -l de_DE.utf8 -o de.po -i rtmpdump.pot
 
 3) Compile PO file
 msgfmt -c -o rtmpdump.mo de.po
