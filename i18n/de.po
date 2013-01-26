@@ -84,18 +84,18 @@ msgstr "(c) 2010 Andrej Stepanchuk, Howard Chu, Das Flvstreamer-Team; Lizenz: GP
 
 #: rtmpdump.c:669
 msgid "--app|-a app            Name of target app on server\n"
-msgstr ""
+msgstr "--app|-a app            Name der Ziel-App auf dem Flash-Server"
 
 #: rtmpdump.c:681
 msgid ""
 "--auth|-u string        Authentication string to be appended to the connect "
 "string\n"
-msgstr ""
+msgstr "--auth|-u string        Die der connect-Zeichenkette anzufügende Authentifizierungszeichenkette"
 
 #: rtmpdump.c:715
 #, c-format
 msgid "--buffer|-b             Buffer time in milliseconds (default: %u)\n"
-msgstr ""
+msgstr "--buffer|-b             Bufferzeit in Millisekunden (Standard: %u)\n"
 
 #: rtmpdump.c:683
 msgid ""
@@ -105,83 +105,84 @@ msgstr ""
 
 #: rtmpdump.c:723
 msgid "--debug|-z              Debug level command output.\n"
-msgstr ""
+msgstr "--debug|-z              Debuginformationen ausgeben"
 
 #: rtmpdump.c:689
 #, c-format
 msgid "--flashVer|-f string    Flash version string (default: \"%s\")\n"
-msgstr ""
+msgstr "--flashVer|-f string    Flash-Player-Version (Standard: \"%s\")\n"
 
 #: rtmpdump.c:698
 msgid ""
 "--flv|-o string         FLV output file name, if the file name is - print "
 "stream to stdout\n"
-msgstr ""
+msgstr "--flv|-o string         Name der FLV-Ausgabedatei (Standardausgabe, wenn - angegeben wird)\n""
 
 #: rtmpdump.c:713
 msgid ""
 "--hashes|-#             Display progress with hashes, not with the byte "
 "counter\n"
-msgstr ""
+msgstr "--hashes|-#             Fortschritt mit Doppelkreuz statt Bytezähler visualisieren\n"
 
 #: rtmpdump.c:648
 msgid "--help|-h               Prints this help screen.\n"
-msgstr ""
+msgstr "--help|-h               Diese Hilfeseite ausgeben.\n"
 
 #: rtmpdump.c:654
 msgid "--host|-n hostname      Overrides the hostname in the rtmp url\n"
-msgstr ""
+msgstr "--host|-n Hostnamen     Überschreibt den Hostnamen in der RTMP-URL"
 
 #: rtmpdump.c:711
 msgid ""
 "--jtv|-j JSON           Authentication token for Justin.tv legacy servers\n"
-msgstr ""
+msgstr "--jtv|-j JSON           Authentifizierungstoken für Justin.tv-Servers"
 
 #: rtmpdump.c:692
 msgid ""
 "--live|-v               Save a live stream, no --resume (seeking) of live "
 "streams possible\n"
-msgstr ""
+msgstr "--live|-v               Livestream speichern (Springen/Fortsetzen nicht möglich)\ņ"
 
 #: rtmpdump.c:668
 msgid "--pageUrl|-p url        Web URL of played programme\n"
-msgstr ""
+msgstr "--pageUrl|-p url        Web-URL des abzuspielenden Streams\n"
 
 #: rtmpdump.c:664
 msgid "--playlist|-Y           Set playlist before playing\n"
-msgstr ""
+msgstr "--playlist|-Y           Playlist vor Spielen setzen\n"
 
 #: rtmpdump.c:662
 msgid "--playpath|-y path      Overrides the playpath parsed from rtmp url\n"
-msgstr ""
+msgstr "--playpath|-y path      Überschreibt den aus der RTMP-URL ausgelesenen Playpath"
 
 #: rtmpdump.c:656
 msgid "--port|-c port          Overrides the port in the rtmp url\n"
-msgstr ""
+msgstr "--port|-c port          Überschreibt den aus der RTMP-URL ausgelesenen Port"
 
 #: rtmpdump.c:660
 msgid ""
 "--protocol|-l num       Overrides the protocol in the rtmp url (0 - RTMP, 2 "
 "- RTMPE)\n"
-msgstr ""
+msgstr "--protocol|-l num       Überschreibt das aus der RTMP-URL ausgelesene Protokoll (0 - RTMP, 2 "
+"- RTMPE)\n"
 
 #: rtmpdump.c:721
 msgid "--quiet|-q              Suppresses all command output.\n"
-msgstr ""
+msgstr "--quiet|-q              Alle Ausgaben unterdrücken"
 
 #: rtmpdump.c:696
 msgid ""
 "--realtime|-R           Don't attempt to speed up download via the Pause/"
 "Unpause BUFX hack\n"
-msgstr ""
+msgstr "--realtime|-R           Downloadbeschleunigung via Pause/Unpause-BUFX-Hack deaktivieren\n"
 
 #: rtmpdump.c:700
 msgid "--resume|-e             Resume a partial RTMP download\n"
-msgstr ""
+msgstr "--resume|-e             Unvollständigen RTMP-Download fortsetzen\n"
 
 #: rtmpdump.c:652
 msgid "--rtmp|-r url           URL (e.g. rtmp://host[:port]/path)\n"
-msgstr ""
+msgstr "--rtmp|-r url           URL (z.B. rtmp://Host[:Port]/Path)\n"
 
 #: rtmpdump.c:718
 #, c-format
@@ -193,7 +194,7 @@ msgstr ""
 
 #: rtmpdump.c:658
 msgid "--socks|-S host:port    Use the specified SOCKS proxy\n"
-msgstr ""
+msgstr "--socks|-S Host:Port    SOCKS-Proxy benutzen\n"
 
 #: rtmpdump.c:705
 msgid ""
@@ -251,7 +252,7 @@ msgstr ""
 
 #: rtmpdump.c:709
 msgid "--token|-T key          Key for SecureToken response\n"
-msgstr ""
+msgstr "--token|-T key          Schlüssel für SecureToken-Antwort"
 
 #: rtmpdump.c:650
 msgid ""
@@ -261,7 +262,7 @@ msgstr ""
 
 #: rtmpdump.c:722
 msgid "--verbose|-V            Verbose command output.\n"
-msgstr ""
+msgstr "--verbose|-V            Ausführliche Informationen ausgeben\n"
 
 #: rtmpdump.c:1324 rtmpdump.c:1360
 msgid "Already Completed\n"
@@ -323,7 +324,7 @@ msgstr ""
 
 #: rtmpdump.c:336
 msgid "Couldn't find keyframe to resume from!"
-msgstr "Es konnte kein Schlüsselbild für Fortsetzung gefunden werden!"
+msgstr "Es konnte kein Schlüsselbild zur Fortsetzung gefunden werden!"
 
 #: rtmpdump.c:822
 msgid "Couldn't load sockets support on your platform, exiting!"
@@ -518,29 +519,29 @@ msgstr "Unbekanntes Protokoll %d angegeben"
 msgid ""
 "You haven't specified a port (--port) or rtmp url (-r), using default port "
 "1935"
-msgstr ""
+msgstr "Sie haben weder einen Port (--port) noch eine RTMP-URL (-r) angegeben. Standardport 1935 wird benutzt..."
 
 #: rtmpdump.c:1115
 msgid ""
 "You haven't specified a protocol (--protocol) or rtmp url (-r), using "
 "default protocol RTMP"
-msgstr ""
+msgstr "Sie haben weder ein Protokoll (--protocol) noch eine RTMP-Url (-r) angegeben. Standardprotokoll RTMP wird benutzt..."
 
 #: rtmpdump.c:1137
 msgid "You haven't specified an output file (-o filename), using stdout"
-msgstr ""
+msgstr "Sie haben keine Ausgabe-/Zieldatei (-o Dateiname) angegeben. Standardausgabe wird benutzt..."
 
 #: rtmpdump.c:1102
 msgid ""
 "You must specify a hostname (--host) or url (-r \"rtmp://host[:port]/playpath"
 "\") containing a hostname"
-msgstr ""
+msgstr "Sie müssen einen Hostnamen (--host) oder eine URL inklusive Hostnamen (-r \"rtmp://Host[:Port]/Playpath\") angeben"
 
 #: rtmpdump.c:1108
 msgid ""
 "You must specify a playpath (--playpath) or url (-r \"rtmp://host[:port]/"
 "playpath\") containing a playpath"
-msgstr ""
+msgstr "Sie müssen einen Playpath (--playpath) oder eine URL inklusive Playpath (-r \"rtmp://Host[:Port]/Playpath\") angeben."
 
 #: rtmpdump.c:301
 #, c-format
