@@ -1,0 +1,567 @@
+# German translations for RTMPDump package
+# German messages for RTMPDump.
+# Copyright (C) 2009 Andrej Stepanchuk
+# Copyright (C) 2010-2011 Howard Chu
+# Copyright (C) The Flvstreamer Team
+# This file is distributed under the same license as the RTMPDump package.
+# Tobias S. Predel <tobias.predel@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: RTMPDump 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-26 16:00+0100\n"
+"PO-Revision-Date: 2013-01-26 16:00+0100\n"
+"Last-Translator: Tobias S. Predel <tobias.predel@gmail.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: rtmpdump.c:647
+#, c-format
+msgid ""
+"\n"
+"%s: This program dumps the media content streamed over RTMP.\n"
+"\n"
+msgstr ""
+"\n"
+"%s: Dieses Programm speichert Medieninhalte, die über das RTMP-Protokoll gesendet werden\n"
+"\n"
+
+#: rtmpdump.c:582
+#, c-format
+msgid "\r%.3f kB / %.2f sec"
+msgstr "\r%.3f kB / %.2f Sek."
+
+#: rtmpdump.c:567
+#, c-format
+msgid "\r%.3f kB / %.2f sec (%.1f%%)"
+msgstr "\r%.3f kB / %.2f Sek. (%.1f%%)"
+
+#: rtmpdump.c:685
+msgid ""
+"                        B:boolean(0|1), S:string, N:number, O:object-flag(0|"
+"1),\n"
+msgstr ""
+
+#: rtmpdump.c:687
+msgid ""
+"                        Z:(null), NB:name:boolean, NS:name:string, NN:name:"
+"number\n"
+msgstr ""
+
+#: rtmpdump.c:501
+msgid "  in approximately realtime (disabled BUFX speedup hack)\n"
+msgstr ""
+
+#: rtmpdump.c:496
+#, c-format
+msgid "%s download at: %.3f kB\n"
+msgstr "%s Download bei: %.3f kB\n"
+
+#: rtmpdump.c:488
+#, c-format
+msgid "%s download at: %.3f kB / %.3f sec (%.1f%%)\n"
+msgstr "%s Download bei: %.3f kB / %.3f Sek. (%.1f%%)\n"
+
+#: rtmpdump.c:234
+#, c-format
+msgid "%s, error decoding meta data packet"
+msgstr "%s, Fehler beim Dekodieren des Metadatenpakets"
+
+#: rtmpdump.c:529
+#, c-format
+msgid "%s: Failed writing, exiting!"
+msgstr "%s: Schreibvorgang fehlgeschlagen! Programm wird beendet..."
+
+#: rtmpdump.c:817
+msgid ""
+"(c) 2010 Andrej Stepanchuk, Howard Chu, The Flvstreamer Team; license: GPL\n"
+msgstr "(c) 2010 Andrej Stepanchuk, Howard Chu, Das Flvstreamer-Team; Lizenz: GPL\n"
+
+#: rtmpdump.c:669
+msgid "--app|-a app            Name of target app on server\n"
+msgstr ""
+
+#: rtmpdump.c:681
+msgid ""
+"--auth|-u string        Authentication string to be appended to the connect "
+"string\n"
+msgstr ""
+
+#: rtmpdump.c:715
+#, c-format
+msgid "--buffer|-b             Buffer time in milliseconds (default: %u)\n"
+msgstr ""
+
+#: rtmpdump.c:683
+msgid ""
+"--conn|-C type:data     Arbitrary AMF data to be appended to the connect "
+"string\n"
+msgstr ""
+
+#: rtmpdump.c:723
+msgid "--debug|-z              Debug level command output.\n"
+msgstr ""
+
+#: rtmpdump.c:689
+#, c-format
+msgid "--flashVer|-f string    Flash version string (default: \"%s\")\n"
+msgstr ""
+
+#: rtmpdump.c:698
+msgid ""
+"--flv|-o string         FLV output file name, if the file name is - print "
+"stream to stdout\n"
+msgstr ""
+
+#: rtmpdump.c:713
+msgid ""
+"--hashes|-#             Display progress with hashes, not with the byte "
+"counter\n"
+msgstr ""
+
+#: rtmpdump.c:648
+msgid "--help|-h               Prints this help screen.\n"
+msgstr ""
+
+#: rtmpdump.c:654
+msgid "--host|-n hostname      Overrides the hostname in the rtmp url\n"
+msgstr ""
+
+#: rtmpdump.c:711
+msgid ""
+"--jtv|-j JSON           Authentication token for Justin.tv legacy servers\n"
+msgstr ""
+
+#: rtmpdump.c:692
+msgid ""
+"--live|-v               Save a live stream, no --resume (seeking) of live "
+"streams possible\n"
+msgstr ""
+
+#: rtmpdump.c:668
+msgid "--pageUrl|-p url        Web URL of played programme\n"
+msgstr ""
+
+#: rtmpdump.c:664
+msgid "--playlist|-Y           Set playlist before playing\n"
+msgstr ""
+
+#: rtmpdump.c:662
+msgid "--playpath|-y path      Overrides the playpath parsed from rtmp url\n"
+msgstr ""
+
+#: rtmpdump.c:656
+msgid "--port|-c port          Overrides the port in the rtmp url\n"
+msgstr ""
+
+#: rtmpdump.c:660
+msgid ""
+"--protocol|-l num       Overrides the protocol in the rtmp url (0 - RTMP, 2 "
+"- RTMPE)\n"
+msgstr ""
+
+#: rtmpdump.c:721
+msgid "--quiet|-q              Suppresses all command output.\n"
+msgstr ""
+
+#: rtmpdump.c:696
+msgid ""
+"--realtime|-R           Don't attempt to speed up download via the Pause/"
+"Unpause BUFX hack\n"
+msgstr ""
+
+#: rtmpdump.c:700
+msgid "--resume|-e             Resume a partial RTMP download\n"
+msgstr ""
+
+#: rtmpdump.c:652
+msgid "--rtmp|-r url           URL (e.g. rtmp://host[:port]/path)\n"
+msgstr ""
+
+#: rtmpdump.c:718
+#, c-format
+msgid ""
+"--skip|-k num           Skip num keyframes when looking for last keyframe to "
+"resume from. Useful if resume fails (default: %d)\n"
+"\n"
+msgstr ""
+
+#: rtmpdump.c:658
+msgid "--socks|-S host:port    Use the specified SOCKS proxy\n"
+msgstr ""
+
+#: rtmpdump.c:705
+msgid ""
+"--start|-A num          Start at num seconds into stream (not valid when "
+"using --live)\n"
+msgstr ""
+
+#: rtmpdump.c:707
+msgid "--stop|-B num           Stop at num seconds into stream\n"
+msgstr ""
+
+#: rtmpdump.c:694
+msgid ""
+"--subscribe|-d string   Stream name to subscribe to (otherwise defaults to "
+"playpath if live is specifed)\n"
+msgstr ""
+
+#: rtmpdump.c:678
+msgid ""
+"--swfAge|-X days        Number of days to use cached SWF hash before "
+"refreshing\n"
+msgstr ""
+
+#: rtmpdump.c:665
+msgid "--swfUrl|-s url         URL to player swf file\n"
+msgstr ""
+
+#: rtmpdump.c:676
+msgid ""
+"--swfVfy|-W url         URL to player swf file, compute hash/size "
+"automatically\n"
+msgstr ""
+
+#: rtmpdump.c:672
+msgid ""
+"--swfhash|-w hexstring  SHA256 hash of the decompressed SWF file (32 bytes)\n"
+msgstr ""
+
+#: rtmpdump.c:674
+msgid ""
+"--swfsize|-x num        Size of the decompressed SWF file, required for "
+"SWFVerification\n"
+msgstr ""
+
+#: rtmpdump.c:667
+msgid ""
+"--tcUrl|-t url          URL to played stream (default: \"rtmp://host[:port]/"
+"app\")\n"
+msgstr ""
+
+#: rtmpdump.c:702
+#, c-format
+msgid "--timeout|-m num        Timeout connection num seconds (default: %u)\n"
+msgstr ""
+
+#: rtmpdump.c:709
+msgid "--token|-T key          Key for SecureToken response\n"
+msgstr ""
+
+#: rtmpdump.c:650
+msgid ""
+"--url|-i url            URL with options included (e.g. rtmp://host[:port]/"
+"path swfUrl=url tcUrl=url)\n"
+msgstr ""
+
+#: rtmpdump.c:722
+msgid "--verbose|-V            Verbose command output.\n"
+msgstr ""
+
+#: rtmpdump.c:1324 rtmpdump.c:1360
+msgid "Already Completed\n"
+msgstr ""
+
+#: rtmpdump.c:479
+#, c-format
+msgid "Already Completed at: %.3f sec Duration=%.3f sec\n"
+msgstr "Bereits heruntergeladen bis: %.3f Sek. Dauer=%.3f Sek.\n"
+
+#: rtmpdump.c:947
+#, c-format
+msgid "Buffer time must be greater than zero, ignoring the specified value %d!"
+msgstr ""
+
+#: rtmpdump.c:1144
+msgid "Can't resume in stdout mode, ignoring --resume option"
+msgstr "Fortsetzen von Streams bei Schreiben auf die Standardaufgabe nicht möglich! Option --resume ignoriert"
+
+#: rtmpdump.c:1150
+msgid "Can't resume live stream, ignoring --resume option"
+msgstr "Livestream kann nicht fortgesetzt werden! Option --resume ignoriert"
+
+#: rtmpdump.c:1309
+msgid "Can't seek a resumed stream, ignoring --start option"
+msgstr "In einem fortgesetzten Stream kann nicht zu einem Zeitpunkt gesprungen werden! Option --start ignoriert"
+
+#: rtmpdump.c:1201
+msgid "Can't seek in a live stream, ignoring --start option"
+msgstr "In einem Livestream kann nicht zu einem Zeitpunkt gesprungen werden! Option --start ignoriert"
+
+#: rtmpdump.c:101
+#, c-format
+msgid "Caught signal: %d, cleaning up, just a second...\n"
+msgstr "Empfangenes Signal: %d. Programm wird ordnungsgemäß beendet, bitte warten...\n"
+
+#: rtmpdump.c:1413
+msgid "Closing connection.\n"
+msgstr "Verbindung wird geschlossen..."
+
+#: rtmpdump.c:1300
+msgid "Connected..."
+msgstr "Verbunden..."
+
+#: rtmpdump.c:1292
+msgid "Connecting ...\n"
+msgstr "Verbindung wird aufgebaut ...\n"
+
+#: rtmpdump.c:1349
+msgid ""
+"Connection timed out, trying to resume.\n"
+"\n"
+msgstr "Zeitüberschreitung beim Verbindungsaufbau. Versuch zur Fortsetzung wird gestartet.\n\n"
+
+#: rtmpdump.c:464
+#, c-format
+msgid "Continuing at TS: %d ms\n"
+msgstr ""
+
+#: rtmpdump.c:336
+msgid "Couldn't find keyframe to resume from!"
+msgstr "Es konnte kein Schlüsselbild für Fortsetzung gefunden werden!"
+
+#: rtmpdump.c:822
+msgid "Couldn't load sockets support on your platform, exiting!"
+msgstr "Auf ihrer Plattform gibt es keine Unterstützung für Sockets! Das Programm wird beendet..."
+
+#: rtmpdump.c:1216
+#, c-format
+msgid "Couldn't parse URL: %s"
+msgstr "Die URL %s konnte nicht ausgelesen werden"
+
+#: rtmpdump.c:891
+#, c-format
+msgid ""
+"Couldn't parse swf hash hex string, not hexstring or not %d bytes, ignoring!"
+msgstr ""
+
+#: rtmpdump.c:996
+#, c-format
+msgid "Couldn't parse the specified url (%s)!"
+msgstr "Die angegebene URL (%d) konnte nicht ausgelesen werden!"
+
+#: rtmpdump.c:168
+msgid "Couldn't read FLV file header!"
+msgstr "Der Kopf der FLV-Datei konnte nicht gelesen werden!"
+
+#: rtmpdump.c:353
+msgid "Couldn't read header!"
+msgstr "Kopf konnte nicht gelesen werden!"
+
+#: rtmpdump.c:392
+msgid "Couldn't read last keyframe, aborting!"
+msgstr "Letztes Schlüsselbild konnte nicht gelesen werden. Download wird abgebrochen..."
+
+#: rtmpdump.c:327
+msgid "Couldn't read prevTagSize from file!"
+msgstr ""
+
+#: rtmpdump.c:625
+#, c-format
+msgid ""
+"Couldn't resume FLV file, try --skip %d\n"
+"\n"
+msgstr "FLV-Datei kann nicht fortgesetzt werden. Versuchen Sie es bitte erneut mit --skip %d\n\n"
+
+#: rtmpdump.c:547
+#, c-format
+msgid "Detected that buffer time is less than duration, resetting to: %dms"
+msgstr ""
+
+#: rtmpdump.c:1403
+msgid "Download complete\n"
+msgstr "Download erfolgreich abgeschlossen\n"
+
+#: rtmpdump.c:1408
+#, c-format
+msgid "Download may be incomplete (downloaded about %.2f%%), try resuming\n"
+msgstr "Download dürfte unvollständig sein (heruntergeladen bis %.2f%%). Fortsetzung wird versucht...."
+
+#: rtmpdump.c:181
+msgid "FLV file contains neither video nor audio, aborting!"
+msgstr "FLV-Datei enthält weder Video- noch Audiospur! Programm wird beendet..."
+
+#: rtmpdump.c:1248
+msgid "Failed to get last keyframe."
+msgstr "Das letzte Schlüsselbild konnte nicht gefunden werden."
+
+#: rtmpdump.c:1273
+#, c-format
+msgid "Failed to open file! %s\n"
+msgstr "Die Datei konnte nicht geöffnet werden! %s\n"
+
+#: rtmpdump.c:1342 rtmpdump.c:1367 rtmpdump.c:1377
+msgid ""
+"Failed to resume the stream\n"
+"\n"
+msgstr "Der Stream konnte nicht fortgesetzt werden\n\n"
+
+#: rtmpdump.c:197
+#, c-format
+msgid "First prevTagSize is not zero: prevTagSize = 0x%08X"
+msgstr ""
+
+#: rtmpdump.c:505
+#, c-format
+msgid "For duration: %.3f sec\n"
+msgstr "Für die Dauer: %.3f Sek.\n"
+
+#: rtmpdump.c:725
+msgid ""
+"If you don't pass parameters for swfUrl, pageUrl, or auth these properties "
+"will not be included in the connect "
+msgstr ""
+
+#: rtmpdump.c:1174
+msgid "Ignoring SWF hash, supply also the swf size  with --swfsize"
+msgstr "SWF-Hash und angegebene SWF-Größe wird ignoriert"
+
+#: rtmpdump.c:1167
+msgid "Ignoring SWF size, supply also the hash with --swfhash"
+msgstr "SWF-Größe und angegebener SWF-Hash wird ignoriert"
+
+#: rtmpdump.c:1053
+#, c-format
+msgid "Invalid AMF parameter: %s"
+msgstr "Ungültiger AMF-Parameter: %s"
+
+#: rtmpdump.c:174
+msgid "Invalid FLV file!"
+msgstr "Ungültige FLV-Datei!"
+
+#: rtmpdump.c:190
+msgid "Invalid FLV file: missing first prevTagSize!"
+msgstr "Ungültige FLV-Datei: erster \"prevTagSize\" fehlt!"
+
+#: rtmpdump.c:409
+#, c-format
+msgid "Last keyframe found at: %d ms, size: %d, type: %02X"
+msgstr "Letztes Schlüsselbild gefunden bei: %d ms, Größe: %d, Typ: %02X"
+
+#: rtmpdump.c:1255
+msgid ""
+"Last keyframe is first frame in stream, switching from resume to normal mode!"
+msgstr ""
+
+#: rtmpdump.c:406
+msgid "Last keyframe timestamp is negative, aborting, your file is corrupt!"
+msgstr "Zeitstempel des letzten Schlüsselbilds ist negativ. Der Stream wird abgebrochen, weil die Datei korrupt ist."
+
+#: rtmpdump.c:343
+#, c-format
+msgid ""
+"Last tag size must be greater/equal zero (prevTagSize=%d) and smaller then "
+"filesize, corrupt file!"
+msgstr ""
+
+#: rtmpdump.c:932
+msgid "Number of keyframes skipped must be greater or equal zero, using zero!"
+msgstr "Anzahl der übersprungenen Schlüsselbild muss größer/gleich null sein! 0 wird verwendet"
+
+#: rtmpdump.c:937
+#, c-format
+msgid "Number of skipped key frames for resume: %d"
+msgstr "Es wurden %d Schlüsselbilder zwecks Streamfortsetzung übersprungen"
+
+#: rtmpdump.c:815
+#, c-format
+msgid "RTMPDump %s\n"
+msgstr "RTMPDump %s\n"
+
+#: rtmpdump.c:621
+#, c-format
+msgid "RTMP_Read returned: %d"
+msgstr "RTMP_Read gab %d aus"
+
+#: rtmpdump.c:489 rtmpdump.c:497
+msgid "Resuming"
+msgstr "Stream wird fortgesetzt...."
+
+#: rtmpdump.c:918
+msgid "SWF Age must be non-negative, ignoring\n"
+msgstr "Ihre SWF-Datei scheint aus der Zukunft zu kommen. Ignorieren..."
+
+#: rtmpdump.c:901
+msgid "SWF Size must be at least 1, ignoring\n"
+msgstr "SWF-Größe muss mindestens 1 betragen. Ignorieren..."
+
+#: rtmpdump.c:1286
+#, c-format
+msgid "Setting buffer time to: %dms"
+msgstr "Bufferzeit wird auf %d ms gesetzt"
+
+#: rtmpdump.c:489 rtmpdump.c:497
+msgid "Starting"
+msgstr "Stream wird gestartet..."
+
+#: rtmpdump.c:469
+msgid "Starting Live Stream\n"
+msgstr "Livestream wird gestartet..."
+
+#: rtmpdump.c:320
+msgid ""
+"Unexpected start of file, error in tag sizes, couldn't arrive at "
+"prevTagSize=0"
+msgstr ""
+
+#: rtmpdump.c:976
+#, c-format
+msgid "Unknown protocol specified: %d"
+msgstr "Unbekanntes Protokoll %d angegeben"
+
+#: rtmpdump.c:1121
+msgid ""
+"You haven't specified a port (--port) or rtmp url (-r), using default port "
+"1935"
+msgstr ""
+
+#: rtmpdump.c:1115
+msgid ""
+"You haven't specified a protocol (--protocol) or rtmp url (-r), using "
+"default protocol RTMP"
+msgstr ""
+
+#: rtmpdump.c:1137
+msgid "You haven't specified an output file (-o filename), using stdout"
+msgstr ""
+
+#: rtmpdump.c:1102
+msgid ""
+"You must specify a hostname (--host) or url (-r \"rtmp://host[:port]/playpath"
+"\") containing a hostname"
+msgstr ""
+
+#: rtmpdump.c:1108
+msgid ""
+"You must specify a playpath (--playpath) or url (-r \"rtmp://host[:port]/"
+"playpath\") containing a playpath"
+msgstr ""
+
+#: rtmpdump.c:301
+#, c-format
+msgid "bAudioOnly: %d, size: %llu"
+msgstr "bAudioOnly: %d, Größe: %llu"
+
+#: rtmpdump.c:726
+msgid ""
+"packet.\n"
+"\n"
+msgstr "Paket.\n\n"
+
+#: rtmpdump.c:1092
+#, c-format
+msgid "unknown option: %c\n"
+msgstr "Unbekannte Option: %c\n"
+
+#: rtmpdump.c:375
+msgid "xxxxxxxxxxxxxxxxxxxxxxxx Well, lets go one more back!"
+msgstr ""
+
+#: rtmpdump.c:591
+msgid "zero read!"
+msgstr ""
