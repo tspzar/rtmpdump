@@ -91,7 +91,7 @@ msgstr "--app|-a <App>          Name der Ziel-App auf dem Flash-Server\n"
 msgid ""
 "--auth|-u string        Authentication string to be appended to the connect "
 "string\n"
-msgstr "--auth|-u <Zeichenk.>    Authentifizierungszeichenkette an connect-Zeichenkette anfügen\n"
+msgstr "--auth|-u <Zeichenk.>   Authentifizierungszeichenkette an connect-Zeichenkette anhängen\n"
 
 #: rtmpdump.c:715
 #, c-format
@@ -100,9 +100,8 @@ msgstr "--buffer|-b             Bufferzeit in Millisekunden (Standard: %u)\n"
 
 #: rtmpdump.c:683
 msgid ""
-"--conn|-C type:data  Arbitrary AMF data to be appended to the connect "
-"string\n"
-msgstr "--conn|-C <Typ>:<Daten>  Die der connect-Zeichenkette anzufügenden AMF-Daten\n"
+"--conn|-C type:data  Arbitrary AMF data to be appended to the connect string\n"
+msgstr "--conn|-C <Typ>:<Daten>  AMF-Daten an connect-Zeichenkette anhängen\n"
 
 #: rtmpdump.c:723
 msgid "--debug|-z              Debug level command output.\n"
@@ -192,7 +191,7 @@ msgid ""
 "--skip|-k num           Skip num keyframes when looking for last keyframe to "
 "resume from. Useful if resume fails (default: %d)\n"
 "\n"
-msgstr "--skip|-k <Zahl>        Anzahl der zu überspringenden Schlüsselbilder bei der Suche nach dem letzten Schlüsselbild, von dem fortgesetzt werden kann. Nützlich wenn das normale Fortsetzen fehlschlägt (Standard: %d)\n"
+msgstr "--skip|-k <Zahl>        Anzahl der zu überspringenden Schlüsselbilder bei der Suche nach dem letzten Schlüsselbild, von dem fortgesetzt werden kann. Nützlich wenn das normale Fortsetzen fehlschlägt (Standard: %d)\n\n"
 
 #: rtmpdump.c:658
 msgid "--socks|-S host:port    Use the specified SOCKS proxy\n"
@@ -260,8 +259,8 @@ msgstr "--token|-T <Schlüssel>  Schlüssel für SecureToken-Antwort\n"
 msgid ""
 "--url|-i url            URL with options included (e.g. rtmp://host[:port]/"
 "path swfUrl=url tcUrl=url)\n"
-msgstr "--url|-i url            URL inklusive Optionen (z.B. rtmp://Host[:Port]/"
-"Pfad swfUrl=<URL> tcUrl=<URL>\n"
+msgstr "--url|-i <URL>          URL inklusive Optionen (z.B. rtmp://Host[:Port]/"
+"Pfad swfUrl=<URL> tcUrl=<URL>)\n"
 
 #: rtmpdump.c:722
 msgid "--verbose|-V            Verbose command output.\n"
