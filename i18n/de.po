@@ -232,7 +232,7 @@ msgstr "--swfVfy|-W <URL>       URL der SWF-Datei, von dieser automatisch Größ
 #: rtmpdump.c:672
 msgid ""
 "--swfhash|-w hexstring  SHA256 hash of the decompressed SWF file (32 bytes)\n"
-msgstr "--swfhash|-w hexstring  SHA256-Prüfsumme der dekomprimierten SWF-Datei (32 Bytes). Für SWF-Verifzierung benötigt.\n"
+msgstr "--swfhash|-w hexstring  SHA256-Prüfsumme der dekomprimierten SWF-Datei (32 Bytes). Für SWF-Verifizierung benötigt.\n"
 
 #: rtmpdump.c:674
 msgid ""
